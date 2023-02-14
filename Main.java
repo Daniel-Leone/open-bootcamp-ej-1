@@ -3,12 +3,15 @@ public class Main {
         sumarNumeros(18, 12, 2022);
         
         Coche miCoche = new Coche();
+
         miCoche.agregarPuertas();
-        System.out.println("el numero de puertas de mi coche es de: " + miCoche.puertas);
+        System.out.println("mi coche tiene " + miCoche.puertas + " puertas.");
     }
     
-    public static int sumarNumeros(int a, int b, int c){
-        return a + b + c;
+    public static void sumarNumeros(int a, int b, int c){
+        int res;
+        res = a + b + c;
+        System.out.println("el resultado de la suma es: " + res);
     }   
 }
 
