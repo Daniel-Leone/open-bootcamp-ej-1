@@ -22,7 +22,7 @@ public class Main {
     //     return result;
     // }
     
-    public static void main(){
+    public static void main(String[] args){
         sumarNumeros(18, 12, 2022);
         
         Coche miCoche = new Coche();
@@ -34,12 +34,13 @@ public class Main {
         return a + b + c;
     }
     
-    public class Coche{
-        int puertas = 4;
-        
-        public static void agregarPuertas(){
-                
-        }
-    }
     
+}
+
+class Coche{
+    int puertas = 4;
+    
+    public void agregarPuertas(){
+        this.puertas++;
+    }
 }
